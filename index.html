@@ -149,15 +149,21 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="dfTitoloModale"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="text-center mb-4">
-                    <img id="dfImmagineModale" src="" alt="" style="max-height: 400px; width: auto;">
-                </div>
-                <div class="mt-3">
-                    <h6 class="mb-2">Sinossi:</h6>
-                    <p id="dfDescrizioneModale" class="text-muted"></p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="dfImmagineModale" src="" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="lead">Prezzo: <span id="dfPrezzoModale"></span></p>
+                        <p>Categoria: <span id="dfCategoriaModale"></span></p>
+                        <p>ASIN: <span id="dfAsinModale"></span></p>
+                        <hr>
+                        <h6>Sinossi:</h6>
+                        <p id="dfSinossiModale"></p>
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
